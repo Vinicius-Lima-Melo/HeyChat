@@ -1,0 +1,47 @@
+.card{
+	width: 200px;
+	margin: 10px; 
+	float: left;
+}
+.card img{
+	width: 100%;
+	max-height: 150px;
+	padding: 10px;
+}
+.nome{
+	font-weight: bold; 
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.local{
+	font-size: 13px;
+	margin-bottom: 5px;
+	color: #6c757d !important;
+}
+#informacoes{
+	float: right;
+	width: auto;
+	/*border: 1px solid blue;*/
+}
+#informacoes a:hover{
+	color: black !important;
+}
+#filtrar{
+	margin-left: 10px; 
+	margin-top: 20px; 
+	width: 100%;
+	/*border: 1px solid black;*/
+	float: left;
+}
+#filtrar .input-group{
+	width: 35%;
+	float: left;
+}
+
+.alert{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	float: right;
+	width: 50%;
+}

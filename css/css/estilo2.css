@@ -1,0 +1,382 @@
+body{
+	width: 100%;
+}
+img{
+	/*background: #FFF;*/
+	object-fit: cover;
+}
+/*/////////////////MENU LATERAL*/
+#menu_lateral{
+	width: 22%;
+	height: 674px;
+	overflow: auto;
+	border-right: 1px solid rgba(55,169,191,0.7);
+	background: #F0F0F0;
+
+
+	float: left;
+}
+#foto_perfil{
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
+	background: white;
+}
+#pesquisa{
+	width: 100%;
+	height: 60px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.conversa{
+	width: 100%;
+	height: 60px;
+	background: rgba(55,169,191,0.2);
+	padding-left: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	/*border: 1px solid black;*/
+}
+.img_usuario{
+	width: 20%;
+	height: 60px;
+	padding-top: 0px;
+	/*border-right: 2px solid rgba(55,169,191,0.8);*/
+	float: left;
+}
+.img_usuario img{
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+}
+.nome_usuario{
+	width: 65%;
+	height: 25px;
+	padding-left: 10px;
+	font-weight: bold;
+	/*border: 1px solid black;*/
+	float: left;
+	border-bottom: 1px solid rgba(55,169,191,0.3)
+}
+.horario_msg{
+	width: 15%;
+	height: 25px;
+	/*border: 1px solid black;*/
+	float: left;
+	padding-top: 2px;
+	font-size: 13px;
+	border-bottom: 1px solid rgba(55,169,191,0.3);
+}
+.mensagem_conversa{
+	width: 80%;
+	height: 35px;
+	/*border: 1px solid black;*/
+	padding-top: 7px;
+	padding-left: 5px;
+	padding-right: 15px;
+	float: left;
+}
+.texto{
+	width: 82%;
+	overflow: hidden;
+	 white-space: nowrap;
+    text-overflow: ellipsis;
+	position: relative;
+	height: 23px;
+	padding-right: 20px;
+	font-family: sans-serif;
+	padding-left: 5px;
+	float: left;
+	/*border:1px solid black;*/
+}
+.qtd_msg{
+	width: 15%;
+	height: 20px;
+	margin-left: 3%;
+	margin-top: 2px;
+	border-radius: 30px;
+	background: rgba(55,169,191,0.7);
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+	float: left;
+}
+
+/*///////////////////////////CHAAAAT*/
+
+/*/////CABECALHO*/
+
+#chat{
+	width: 78%;
+	float: left;
+}
+#cabecalho{
+	width: 100%;
+	height: 55px;
+	display: none;
+	/*background: rgba(55,169,191,0.2);*/
+	background-image: linear-gradient(to right, rgba(55,169,191,0.4), rgba(55,169,191,0.2));
+}
+#dados_usuario{
+	width: 25%;
+	height: 55px;
+	margin-left: 50px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+#img_usuario_chat{
+	width: 25%;
+	height: 55px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+#img_usuario_chat img{
+	width: 90%;
+	height: 55px;
+	border-radius: 10px;
+}
+#nome_usuario_chat{
+	width: 75%;
+	height: 25px;
+	padding-left: 10px;
+	padding-top: 5px;
+	/*border-top: 1px solid black;*/
+	float: left;
+	font-weight: bold;
+}
+#status_usuario_chat{
+	width: 75%;
+	height: 30px;
+	padding-left: 10px;
+	padding-top: 2px;
+	/*border-top: 1px solid black;*/
+	float: left;
+}
+
+#opcoes_conversa{
+	width: 25%;
+	height: 55px;
+	float: right;
+	padding-top: 18px;
+	/*border: 1px solid black;*/
+	color: rgba(55,169,191,1);
+}
+#opcoes_conversa i{
+	font-size: 18px;
+	letter-spacing: 20px;	
+}
+#opcoes_conversa i:hover{
+	/*font-size: 23px;*/
+	letter-spacing: 20px;	
+	color: #000;
+	cursor: pointer;
+}
+
+/*///////CORPO DO CHAT*/
+
+#body_chat{
+	width: 100%;
+	height:550px;
+	/*border:1px solid black;*/
+	overflow: auto;
+	padding-left: 170px;
+	padding-right: 170px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url("../../img/plano de fundo.jpg");
+	/*background: rgba(55,169,191,0.8); */
+}
+
+/*///////ESQUERDA*/
+
+.mensagem_esquerda{
+	width: 100%;
+	float: left;
+	position: relative;
+	min-height: 30px;
+	/*border: 1px solid black;*/
+	/*background: rgba(55,169,191,0.2);*/
+
+}
+.box_esquerda{
+	max-width: 50%;
+	float: left;
+	position: relative;
+	padding-right: 5px;
+	min-height: 30px;
+	/*max-height: 300px; */
+	/*background: rgba(55,169,191,0.5);*/
+	background: #59AEFE;
+	border-radius: 5px;
+}
+.texto_esquerdo{
+	max-width: 100%;
+	min-height: 30px;
+	float: left;
+	word-wrap: break-word;
+	position: relative;
+	padding: 2px 10px 0px 5px;
+	/*border: 1px solid blue;*/
+}
+
+.horario_envio_mensagem{
+	/*min-width: 10%;*/
+	/*position: ;*/
+	max-width: 10%;
+	min-height: 30px;
+	float: left;
+	position: relative;
+	font-size: 9px;
+	padding: 13px 5px 0px 5px;
+	/*position: absolute;*/
+	/*bottom: 0;
+	right: 0;*/
+	color: #000;
+}
+
+/*////////DIREITA*/
+
+.mensagem_direita{
+	width: 100%;
+	float: left;
+	min-height: 30px;
+	/*background: rgba(55,169,191,0.5);*/
+}
+
+.texto_direita{
+	max-width: 100%;
+	min-height: 30px;
+	float: right;
+	word-wrap: break-word;
+	padding: 2px 20px 0px 5px;
+}
+.status_msg{
+	float: right;
+	font-size: 10px;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #3296F5;
+}
+
+.horario_envio_mensagem_direita{
+	width: 30px;
+	height: 30px;
+	float: right;
+	font-size: 9px;
+	padding: 13px 10px 5px 5px;
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+	color: #000;
+	/*border: 1px solid black;*/
+}
+.box_direita{
+	max-width: 50%;
+	float: right;
+	position: relative;
+	padding-right: 20px;
+	min-height: 30px;
+	/*background: rgba(55,169,191,0.3);*/
+	background :#95D6FF;
+	border-radius: 5px;
+}
+
+/*//////RODAPÉ CHAT*/
+
+#entrada{
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	display: none;
+	background: rgba(55,169,191,0.5);
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 16px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+#menu_onlines{
+	display: none;
+}
+.listagem_onlines_contatos{
+	width: 100%;
+	height: 50px;
+	background: rgba(55,169,191,0.4);
+	margin-bottom: 10px;
+	padding-left: 10%;
+}
+.listagem_onlines_contatos img{
+	width: 100%;
+	height: 50px;
+}
+
+.img_onlines_contatos{
+	width: 20%;
+	height: 50px;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.nome_usuario_onlines_contatos{
+	width: 80%;
+	height: 20px;
+	padding-left: 15px;
+	padding-top: 2px;
+	/*border-bottom: 1px solid black;*/
+	float: left;
+}
+.status_opcoes{
+	width: 80%;
+	height: 30px;
+	padding-left: 20px;
+	padding-top: 5px;
+	/*border-bottom: 1px solid black;*/
+	float: left;
+}
+.status_opcoes i{
+	color: rgba(55,169,191,1);
+	float: right;
+	padding-top: 5px;
+	font-size: 15px;
+	letter-spacing: 15px;
+}
+.status_opcoes i:hover{
+	letter-spacing: 15px;	
+	color: #000;
+	cursor: pointer;
+}
+#menu_contatos{
+	display: none;
+}
+.btnRolarConteudo{
+	display: none;
+	position: absolute;
+	bottom: 100px;
+	right: 50px;
+	border-radius: 5px;
+	background: rgba(149,214,255,0.7) !important;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+::-webkit-scrollbar{
+	width: 7px;
+	height: 7px;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+  	display: none;
+}
+::-webkit-scrollbar-track-piece  {
+ 	background-color: rgba(48,171,251,0.2);
+  	-webkit-border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  	background-color: rgba(48,171,251,0.8);
+  	-webkit-border-radius: 0px;
+}
